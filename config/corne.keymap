@@ -12,6 +12,18 @@
     chain-length = <27>;
 };
 
+&mt {
+    tapping-term-ms = <170>;
+    quick_tap_ms = <0>;
+    flavor = "tap-preferred";
+};
+
+&lt {
+    tapping-term-ms = <170>;
+    quick_tap_ms = <0>;
+    flavor = "tap-preferred";
+};
+
 / {
     keymap {
         compatible = "zmk,keymap";
