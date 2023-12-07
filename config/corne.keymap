@@ -25,7 +25,7 @@
 
             bindings = <
 &none  &kp Q        &kp W        &kp E           &kp R               &kp T         &kp Y          &kp U            &kp I      &kp O        &kp BACKSPACE    &none
-&none  &kp A        &mt LCTRL S  &kp D           &mt LEFT_GUI F      &kp G         &kp H          &mt RIGHT_GUI J  &kp K      &mt RCTRL L  &kp P            &none
+&none  &kp A        &mt LCTRL S  &lt 3 D         &mt LEFT_GUI F      &kp G         &kp H          &mt RIGHT_GUI J  &lt 2 K    &mt RCTRL L  &kp P            &none
 &none  &mt LSHFT Z  &kp X        &kp C           &kp V               &kp B         &kp N          &kp M            &kp COMMA  &kp DOT      &kp RIGHT_SHIFT  &none
                                  &kp LEFT_SHIFT  &mt LEFT_GUI ENTER  &kp ESCAPE    &kp BACKSPACE  &kp SPACE        &mo 1
             >;
@@ -57,9 +57,9 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp LS(LC(TAB))    &trans  &kp LC(TAB)    &trans    &bt BT_CLR  &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-&trans  &trans  &mt LCTRL LS(TAB)  &trans  &kp TAB        &trans    &trans      &trans        &trans        &trans        &trans        &trans
-&trans  &none   &kp LS(LG(GRAVE))  &none   &kp LG(GRAVE)  &trans    &trans      &trans        &trans        &trans        &trans        &trans
+&trans  &trans  &kp LS(LC(TAB))    &trans  &kp LC(TAB)    &trans    &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
+&trans  &trans  &mt LCTRL LS(TAB)  &trans  &kp TAB        &trans    &trans      &kp RIGHT_GUI  &trans        &kp RCTRL     &trans        &trans
+&trans  &none   &kp LS(LG(GRAVE))  &none   &kp LG(GRAVE)  &trans    &trans      &trans         &trans        &trans        &trans        &trans
                                    &trans  &trans         &trans    &trans      &trans
             >;
         };
