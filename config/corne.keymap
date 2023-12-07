@@ -69,7 +69,7 @@
 
         nav {
             bindings = <
-&trans  &trans  &kp LS(LC(TAB))    &trans  &kp LC(TAB)    &trans    &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
+&trans  &bt BT_CLR  &kp LS(LC(TAB))    &trans  &kp LC(TAB)    &trans    &bt BT_CLR  &bt BT_SEL 0   &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
 &trans  &trans  &mt LCTRL LS(TAB)  &trans  &kp TAB        &trans    &trans      &kp RIGHT_GUI  &trans        &kp RCTRL     &trans        &trans
 &trans  &none   &kp LS(LG(GRAVE))  &none   &kp LG(GRAVE)  &trans    &trans      &trans         &trans        &trans        &trans        &trans
                                    &trans  &trans         &trans    &trans      &trans         &trans
