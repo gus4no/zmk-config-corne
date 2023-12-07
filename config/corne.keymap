@@ -46,7 +46,25 @@
             >;
         };
 
-        lower_layer {
+        arrow-media {
+            bindings = <
+&trans  &trans  &kp PG_UP  &kp UP    &kp PG_DN  &trans    &trans  &kp K_MUTE              &trans  &kp C_PLAY             &trans  &trans
+&trans  &trans  &kp LEFT   &kp DOWN  &kp RIGHT  &trans    &trans  &mt RIGHT_GUI C_VOL_DN  &trans  &mt RCTRL C_VOLUME_UP  &trans  &trans
+&trans  &trans  &kp HOME   &trans    &kp END    &trans    &trans  &kp C_PREV              &trans  &kp C_NEXT             &trans  &trans
+                           &trans    &trans     &trans    &trans  &trans                  &trans
+            >;
+        };
+
+        nav {
+            bindings = <
+&trans  &trans  &kp LS(LC(TAB))    &trans  &kp LC(TAB)    &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &mt LCTRL LS(TAB)  &trans  &kp TAB        &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp LS(LG(GRAVE))  &trans  &kp LG(GRAVE)  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+                                   &trans  &trans         &trans    &trans  &trans  &trans
+            >;
+        };
+
+        sys {
             // -----------------------------------------------------------------------------------------
             // |      |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  |      |
             // |      | BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
